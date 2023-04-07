@@ -6,3 +6,8 @@ def home(request):
     return render(request, 'recipes/pages/home.html', status=200, context={
         'name': 'Guilherme Campos'
     })
+
+def recipe(request):
+    return render(request, 'recipes/pages/home.html', status=200, context={
+        'name': 'Guilherme Campos'
+    })
